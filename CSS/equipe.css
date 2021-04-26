@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,white,black);
+}
+nav{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background:rgba(0, 0, 0, .2);
+}
+ul{
+    margin-top: 10px;
+}
+li{
+    color: snow;
+    display: inline-block;
+}
+.nav-links{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-right: 50px;
+}
+.nav-links::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+}
+.nav-links:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+a{
+    text-decoration: none;
+    color: snow;
+}
+.home-link{
+    cursor: pointer;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-right: 200px;
+    background: linear-gradient(45deg,#03e9f4,#1f3e50);
+    padding: 10px 25px ;
+}
+.home-link:hover{
+    padding: 9px 24px ;
+    background: none;
+    border: solid #03e9f4 1px;
+    text-shadow: 0 0 5px #fff,0 0 5px #fff;
+}
+.bb1{
+    margin-left: 210px;
+}
+.bb2{
+    margin-left: 20px;
+}
+.bb{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+
+    
+}
+.nav-buttons{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #5590a0;
+    padding: 10px;
+    transition: all .3s;
+}
+.bb :hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+}
+.mother{
+    margin: 0 auto;
+    height: 2100px;
+    width: 1360px;
+    background: url(../img/Équipe_BACGROUND.png);
+}
+.m-1{
+    width: 1360px;
+    height: 2000px;
+    margin-top: 100px;
+    position: absolute;    
+}
+.m-1-h{
+    margin: 50px 0 100px 0;
+    text-align: center;
+    color: snow;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+}
+.user{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.display{
+    display: inline-block;
+    text-align: center;
+}
+.icon{
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+.text-H{
+    color: red;
+    text-align: center;
+    margin-bottom: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+}
+.text-P{
+    text-align: left;
+    color: snow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.Id-1{
+    margin: 50px 150px;
+}
+
+.Id-3,.Id-2,.Id-3,.Id-4,.Id-5{
+    margin: 80px 150px;
+    text-align: right;
+}
+.Id-6{
+    margin: 50px 150px;
+    text-align: left;
+}
+.Id-7{
+    margin: 50px 150px;
+}
+.P-H{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+    color: red;
+    margin: 120px 0 50px 70px;
+}
+.P-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 130px;
+    color: snow;
+    font-size: 33px;
+}
+
+.bottom-div{
+    margin: 0 auto;
+    height: 100px;
+    width: 1360px;
+    background: rgba(0, 0, 0, .8);
+    text-align: center
+}
+.lng-link{
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    margin: 40px 40px 15px 40px;
+}
+
+.lng-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+}
+.lng-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+.copyright{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, .4);
+}
+.Spase{
+    margin-right: 50px;
+}
+.lng-link-a{
+    color: #5590a0;
+}
+
+.P-H-ar,.P-text-ar{
+    text-align: right;
+}
+.P-H-ar{
+    margin-right: 70px;
+}
+.P-text-ar{
+    margin-right: 130px;
+}
+.text-P-ar{
+    text-align: right;
+}
